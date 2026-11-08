@@ -9,6 +9,17 @@ Static brand assets and programmatic video workspace.
 | ![atbc-rich-icon.svg](public/atbc-rich-icon.svg) | ![amo-download-button.svg](public/amo-download-button.svg) |
 | [atbc-rich-icon.svg](public/atbc-rich-icon.svg)  | [amo-download-button.svg](public/amo-download-button.svg)  |
 
+## Setup
+
+1. Install dependencies:
+    ```bash
+    bun install
+    ```
+2. Install Remotion agent skills:
+    ```bash
+    npx skills add remotion-dev/skills
+    ```
+
 ## Video Workflow
 
 1. Drop recordings or images into `public/`.
